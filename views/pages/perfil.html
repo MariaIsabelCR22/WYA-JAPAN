@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WYA JAPAN - PERFIL</title>
+
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/perfil.css">
+</head>
+
+<body class="profile-body">
+
+  <header>
+        <div class="announce-track">
+            <div class="announce-track-inner">
+                <div class="announce-group">
+                    <span>ENVÍOS A TODO EL MUNDO</span>
+                    <span>10% OFF EN TU PRIMERA COMPRA – USA EL CÓDIGO: WYA10</span>
+                    <span>PAGO 100% SEGURO</span>
+                    <span>NUEVA COLECCIÓN TOKYO STREET</span>
+                </div>
+                <div class="announce-group" aria-hidden="true">
+                    <span>ENVÍOS A TODO EL MUNDO</span>
+                    <span>10% OFF EN TU PRIMERA COMPRA – USA EL CÓDIGO: WYA10</span>
+                    <span>PAGO 100% SEGURO</span>
+                    <span>NUEVA COLECCIÓN TOKYO STREET</span>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="header-main-nav">
+            <a href="/index.html">
+                <img src="../images/logo_png.png" alt="Logo WYA Japan" class="logo">
+            </a>
+            
+            <ul class="menu-enlaces">
+                <li><a href="../../index.html">INICIO</a></li>
+                <li><a href="prendas.html">PRENDAS</a></li>
+                <li><a href="accesorios.html">ACCESORIOS</a></li>
+            </ul>
+            
+            <div class="iconos-derecha">
+                
+                <div class="user-menu-container">
+                    <img src="../images/icono_usuario.png" alt="Perfil" class="icon_usuario">
+                    <div class="user-dropdown">
+                        <a href="login.html">✦ INICIA SESIÓN ✦</a>
+                        <a href="register.html">✦ REGÍSTRATE ✦</a>
+                    </div>
+                </div>
+                
+                <div class="cart-menu-wrapper">
+                    <input type="checkbox" id="cart-toggle" class="cart-toggle-input">
+                    
+                    <label for="cart-toggle" class="cart-container">
+                        <img src="../images/icono_carrito.png" alt="Carrito" class="icon_carrito">
+                    </label>
+
+                    <div class="cart-sidebar">
+                        <label for="cart-toggle" class="cart-sidebar-close">
+                            ✕
+                        </label>
+
+                        <div class="cart-sidebar-content">
+                            <!-- carrito.js -->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="profile-main">
+
+        <section class="profile-container">
+
+            <!-- INFORMACIÓN DEL USUARIO -->
+            <div class="profile-section">
+
+                <div class="profile-title">
+                    <span>✦</span>
+                    <h1>MI PERFIL</h1>
+                </div>
+
+                <div class="profile-info">
+
+                    <div class="profile-avatar">
+                        <span>✦</span>
+                    </div>
+
+                    <div class="profile-data">
+
+                        <div class="profile-data-item">
+                            <span>NOMBRE</span>
+                            <p id="profile-name">No disponible</p>
+                        </div>
+
+                        <div class="profile-data-item">
+                            <span>CORREO</span>
+                            <p id="profile-email">No disponible</p>
+                        </div>
+
+                        <div class="profile-data-item">
+                            <span>TELÉFONO</span>
+                            <p id="profile-phone">No disponible</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PEDIDOS -->
+            <div class="profile-section orders-section">
+
+                <div class="profile-title">
+                    <span>✦</span>
+                    <h2>MIS PEDIDOS</h2>
+                </div>
+
+                <!-- Este mensaje aparecerá cuando no existan pedidos -->
+                <div class="no-orders" id="no-orders">
+
+                    <div class="no-orders-icon">
+                        <img src="../images/icon-flor.png" alt="">
+                    </div>
+
+                    <h3>AÚN NO TIENES PEDIDOS</h3>
+
+                    <p>
+                        Cuando realices una compra,
+                        aquí podrás consultar todos tus pedidos.
+                    </p>
+
+                    <a href="prendas.html" class="profile-shop-btn">
+                        VER PRENDAS
+                    </a>
+
+                </div>
+
+
+                <!--
+                Esta sección se utilizará después
+                cuando conectemos los pedidos reales.
+
+                <div class="orders-list" id="orders-list">
+
+                    <div class="order-card">
+
+                        <div class="order-header">
+                            <span>PEDIDO #0001</span>
+                            <span>30/08/2026</span>
+                        </div>
+
+                        <div class="order-product">
+
+                            <img src="../images/producto1.png"
+                                 alt="Producto">
+
+                            <div class="order-product-info">
+
+                                <h3>PHANTOM HOODIE</h3>
+
+                                <p>TALLA: M</p>
+                                <p>CANTIDAD: 2</p>
+
+                            </div>
+
+                            <div class="order-product-price">
+                                $160.000
+                            </div>
+
+                        </div>
+
+                        <div class="order-total">
+                            <span>TOTAL</span>
+                            <strong>$160.000</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+                -->
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-column footer-brand">
+                <a href="index.html">
+                    <img src="../../views/images/logo_png.png" alt="WYA Japan" class="footer-logo">
+                </a>
+                <p class="footer-desc">Estilo Y2K. Alma japonesa. Cultura streetwear nacida en Tokio, llevada a todo el mundo.</p>
+                <div class="footer-socials">
+                    <a href="https://www.instagram.com/wya_japan?igsh=djIxbDdocGxoanVl" target="_blank" aria-label="Instagram">
+                        <img src="../../views/images/icon_instagram.png" alt="Instagram" class="social-icon"></a>
+
+                    <a href="https://www.tiktok.com/@wyajapan2?_r=1&_t=ZS-97UJ0lrAS8L" aria-label="TikTok">
+                        <img src="../../views/images/icon_tiktok.png" alt="TikTok" class="social-icon"></a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>COMPRAR</h3>
+                <ul>
+                    <li><a href="prendas.html">PRENDAS</a></li>
+                    <li><a href="accesorios.html">ACCESORIOS</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>SOPORTE</h3>
+                <ul>
+                    <li><a href="#">ÚNICAMENTE: <br>wya_japan@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 WYA JAPAN. TODOS LOS DERECHOS RESERVADOS.</p>
+            <div class="footer-legal">
+                <a href="/views/pages/terminos.html">TÉRMINOS DE SERVICIO</a>
+                <a href="/views/pages/privacidad.html">POLÍTICA DE PRIVACIDAD</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../controllers/auth.js"></script>
+    <script src="../../controllers/perfil.js"></script>
+
+</body>
+
+</html>

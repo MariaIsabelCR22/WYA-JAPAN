@@ -1,0 +1,34 @@
+.terms-main {
+    background-color: #291829;
+    padding: 4rem 2rem;
+    min-height: 70vh;
+}
+
+.terms-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.terms-container h1 {
+    color: #ff2d78;
+    font-size: 1.8rem;
+    letter-spacing: 0.15em;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.terms-container h2 {
+    color: #ffffff;
+    font-size: 0.95rem;
+    letter-spacing: 0.12em;
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+.terms-container p {
+    color: #9a9a9a;
+    font-size: 0.85rem;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    margin: 0;
+}
